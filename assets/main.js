@@ -7,4 +7,3 @@ document.getElementById('result').innerHTML = 'kết quả:' + ' ' + str.search(
 const repeat = str.match(/à/g)
 document.getElementById('repeat').innerHTML = 'kết quả trả về 1 mảng có các phần từ là chuỗi được lặp lại từ mảng gốc: => số lần lặp lại = repeat.length =' + ' ' + 'Số lần lặp lại của chuỗi "à" =' + ' ' + repeat.length
 console.log(repeat.length)
-ádasdasd
