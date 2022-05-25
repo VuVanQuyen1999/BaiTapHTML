@@ -206,3 +206,9 @@ input {
 .element3:focus {
     z-index: 99;
 }
+
+/* Bài 5 */
+
+.bai5 {
+    margin-top: 200px;
+}
