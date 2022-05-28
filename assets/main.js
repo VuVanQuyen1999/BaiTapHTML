@@ -10,9 +10,22 @@ console.log(repeat.length)
 
 
 // Bài 6
+let input = document.getElementById('input')
+let result = document.getElementById('demo')
+let btn = document.getElementById('btn')
 
-function isVietnamesePhoneNumberValid(number) {
-    return /(((\+|)84)|0)(3|5|7|8|9)+([0-9]{8})\b/.test(number);
+ 
+
+const handleClick = () => {
+    const numberPhone = input.value
+    const regex = /(((\+|)84)|0)(3|5|7|8|9)+([0-9]{8})\b/;
+    console.log(numberPhone)
+    if(regex.test(numberPhone)) {
+        result.innerHTML = 'Số điện thoại hợp lệ'
+    } else {
+        result.innerHTML = 'Số điện thoại không hợp lệ'
+    }
 }
 
-console.log(isVietnamesePhoneNumberValid(+84374762336))
+btn.addEventListener('click', handleClick)
+

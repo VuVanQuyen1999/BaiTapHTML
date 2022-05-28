@@ -13,6 +13,7 @@ button {
     padding: 8px 16px;
     border: none;
     border-radius: 25px;
+    min-width: 100px;
 }
 
 button:hover {
@@ -211,4 +212,20 @@ input {
 
 .bai5 {
     margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+/* Bài 6 */
+
+.bai6 {
+    margin: 0 0 50px 30px;
+}
+
+.bai6 .btn {
+    border: 1px solid black;
+}
+
+.bai6 input {
+    padding: 4px 8px;
+    font-size: 16px;
 }
